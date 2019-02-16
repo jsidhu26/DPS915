@@ -18,8 +18,8 @@ void generateRandom(float** a, int n) {
 			a[i][j] = std::rand() / 100;
 			//uncomment these lines to see the numbers 
 			//assigned to each element
-			std::cout << "array[" << i << "," << j << "] : " 
-			<< a[i][j] << std::endl;
+			//std::cout << "array[" << i << "," << j << "] : " 
+			//<< a[i][j] << std::endl;
 		}
 	}
 }
