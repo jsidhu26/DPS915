@@ -1,0 +1,13 @@
+			Call graph
+
+
+granularity: each sample hit covers 2 byte(s) no time propagated
+
+index % time    self  children    called     name
+                0.00    0.00       1/1           __libc_csu_init [16]
+[8]      0.0    0.00    0.00       1         _GLOBAL__sub_I__Z4initPPfi [8]
+-----------------------------------------------
+
+Index by function name
+
+   [8] _GLOBAL__sub_I__Z4initPPfi (ArrayProcessing.cpp)

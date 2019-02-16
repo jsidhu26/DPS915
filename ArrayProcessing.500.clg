@@ -1,0 +1,16 @@
+			Call graph
+
+
+granularity: each sample hit covers 2 byte(s) for 49.60% of 0.02 seconds
+
+index % time    self  children    called     name
+                                                 <spontaneous>
+[1]    100.0    0.02    0.00                 generateRandom(float**, int) [1]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [16]
+[9]      0.0    0.00    0.00       1         _GLOBAL__sub_I__Z4initPPfi [9]
+-----------------------------------------------
+
+Index by function name
+
+   [9] _GLOBAL__sub_I__Z4initPPfi (ArrayProcessing.cpp) [1] generateRandom(float**, int)

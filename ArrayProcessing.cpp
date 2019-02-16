@@ -1,5 +1,5 @@
-// Profile a Serial Application - Workshop 1
-// w1.cpp
+// Profile a Serial Application - Array Processing
+// ArrayProcessing.cpp
 
 #include <iostream>
 #include <iomanip>
@@ -16,7 +16,10 @@ void generateRandom(float** a, int n) {
 	for (int i = 0; i < n; i++) {
 		for (int j = 0; j < n; j++) {
 			a[i][j] = std::rand() / 100;
-			std::cout << "array[" << i << "," << j << "] : " << a[i][j] << std::endl;
+			//uncomment these lines to see the numbers 
+			//assigned to each element
+			std::cout << "array[" << i << "," << j << "] : " 
+			<< a[i][j] << std::endl;
 		}
 	}
 }
@@ -40,8 +43,6 @@ int main(int argc, char* argv[]) {
 	for (int i = 0; i < n; i++)
 		delete[] a[i];
 	delete[] a;
-	
-	system("Pause");
 
 	return 0;
 }
